@@ -5,7 +5,7 @@ on:
     branches: [ "feature/cicd" ] 
 
 jobs:
-  complie:
+  compile:
     runs-on: ubuntu-latest
 
     steps:
