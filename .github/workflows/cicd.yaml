@@ -49,6 +49,7 @@ jobs:
       
   test:
     runs-on: Agent-1
+    needs: security-check
 
     steps:
     - uses: actions/checkout@v4
