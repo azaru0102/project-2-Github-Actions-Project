@@ -61,8 +61,14 @@ jobs:
         distribution: 'temurin'
         cache: maven
         
-    - name: unit test
-      run: mvn test
+    - name: give permission to mvnw 
+      run: chmod +x mvnw
+
+    - name: unit test Cases
+      run: ./mvnw test
+
+      
+     
       
 
       
