@@ -69,7 +69,7 @@ jobs:
 
   Build_Sonar_Scan:
     runs-on: Agent-1
-    needs: security-check
+    needs: test
 
     steps:
     - uses: actions/checkout@v4
